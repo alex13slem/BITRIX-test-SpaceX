@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link crossorigin="use-credentials" rel="manifest" href="image/favicon/site.webmanifest">
+	<link crossorigin="use-credentials" rel="manifest" href="image/favicon/manifest.json">
+	<link rel="mask-icon" href="image/favicon/safari-pinned-tab.svg" color="#e80000">
+	<link href="image/favicon/favicon.ico" rel="shortcut icon" type="image/x-icon">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="image/favicon/apple-touch-icon-57x57-precomposed.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="114x114"
+		href="image/favicon/apple-touch-icon-114x114-precomposed.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="image/favicon/apple-touch-icon-72x72-precomposed.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="144x144"
+		href="image/favicon/apple-touch-icon-144x144-precomposed.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="60x60" href="image/favicon/apple-touch-icon-60x60-precomposed.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="120x120"
+		href="image/favicon/apple-touch-icon-120x120-precomposed.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="image/favicon/apple-touch-icon-76x76-precomposed.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="152x152"
+		href="image/favicon/apple-touch-icon-152x152-precomposed.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="image/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="image/favicon/favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="image/favicon/favicon-16x16.png" sizes="16x16" />
+	<meta name="msapplication-TileImage" content="image/favicon/mstile-150x150.png" />
+	<meta name="msapplication-square150x150logo" content="image/favicon/mstile-150x150.png" />
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#e80000">
+
+	<link rel="stylesheet" href="css/template.min.css?_v=20220802091834">
+	<title>SpaceX</title>
+</head>
+
+<body class="body">
+	<!-- BEGIN HEADER -->
+	<header class="header">
+		<div class="container">
+
+			<nav class="navbar navbar-expand-lg">
+
+				<a class="site-logo" href="javascript:void(0)">
+					<picture>
+						<source srcset="image/spacex_logo.webp" type="image/webp"><img class="site-logo__img"
+							src="image/spacex_logo.png" alt="SpaceX">
+					</picture>
+				</a>
+
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+					aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+							<path stroke="rgba(0, 0, 0, 0.5)" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10"
+								d="M4 7h22M4 15h22M4 23h22" />
+						</svg>
+					</span>
+				</button>
+
+				<div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+					<div class="navbar-nav">
+						<a class="navbar-nav__item" href="javascript:void(0)">Главная</a>
+						<a class="navbar-nav__item" href="javascript:void(0)">Технология</a>
+						<a class="navbar-nav__item" href="javascript:void(0)">График полётов</a>
+						<a class="navbar-nav__item" href="javascript:void(0)">Гарантии</a>
+						<a class="navbar-nav__item" href="javascript:void(0)">О компании</a>
+						<a class="navbar-nav__item" href="javascript:void(0)">Контакты</a>
+					</div>
+				</div>
+
+			</nav>
+
+		</div>
+	</header>
+	<!-- END HEADER -->
+	<!-- BEGIN MAIN -->
+	<main class="main">
+		<div class="container">
+			<div class="row justify-content-xl-between justify-content-center align-content-start flex-grow-1">
+				<div class="proposal col-12 col-md-8 col-xl-7 h-50 main__proposal">
+
+					<p class="proposal__text">
+						<span>Путeшествие</span><br>на красную планету
+					</p>
+
+					<!-- Button trigger modal -->
+					<button type="button" class="proposal__btn firm-btn" data-toggle="modal" data-target="#form-modal">
+						Начать путешествие
+						<span></span>
+					</button>
+
+
+					<!-- Modal -->
+					<div class="modal fade" id="form-modal" tabindex="-1" role="dialog" aria-labelledby=""
+						aria-hidden="true">
+						<div class="modal-dialog modal-dialog-centered" role="document">
+							<div class="modal-content proposal-modal">
+								<div class="modal-header">
+									<h5 class="modal-title" id="">Напиши Илону в ЛС</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									<form action="" method="get" id="form" class="needs-validation" novalidate>
+
+										<input class="form-control name" type="text" placeholder="Имя" required>
+										<input class="form-control surname" type="text" placeholder="Фамилия" required>
+										<input class="form-control email" type="text" placeholder="Email или Ваш телефон"
+											required>
+										<textarea class="form-control" placeholder="Введите ваше сообщение" required></textarea>
+
+									</form>
+									<p class="attention">*Нажимая на кнопку "Отправить", Вы соглашаетесь на обработку
+										персональных данных.</p>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="firm-btn" data-dismiss="modal">Закрыть</button>
+									<button type="submit" form="form" class="firm-btn firm-btn_red">Отправить</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="cards-block col-12 col-xl-4 h-50 main__cards">
+					<div class="cards-block__card card">
+						<p class="card__first-line">мы</p>
+						<p class="card__second-line">1</p>
+						<p class="card__third-line">на рынке</p>
+					</div>
+					<div class="cards-block__card card">
+						<p class="card__first-line">гарантируем</p>
+						<p class="card__second-line">50%</p>
+						<p class="card__third-line">безопасность</p>
+					</div>
+					<div class="cards-block__card card">
+						<p class="card__first-line">календарик за</p>
+						<p class="card__second-line">2001<span> г.</span></p>
+						<p class="card__third-line">в подарок</p>
+					</div>
+					<div class="cards-block__card card">
+						<p class="card__first-line">путешествие</p>
+						<p class="card__second-line">597</p>
+						<p class="card__third-line">дней</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<!-- END MAIN -->
+	<script src="js/template.min.js?_v=20220802091834"></script>
+</body>
+
+</html>
